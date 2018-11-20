@@ -1,2 +1,2 @@
-# message-store
-A basic message store
+# Message Store
+A RESTful API to work as a basic message store
