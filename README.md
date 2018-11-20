@@ -23,5 +23,5 @@ enabled by placing the **data.sql** file in the `src/main/resources` folder.
 ## References
 
 [Spring Initializr](https://start.spring.io/)  
-[Building REST Services with Spring]https://spring.io/guides/tutorials/rest/)  
+[Building REST Services with Spring](https://spring.io/guides/tutorials/rest/)  
 
