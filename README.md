@@ -4,6 +4,15 @@ This exercise is a RESTful API to work as a basic message store.
 
 
 
+## Quick start
+
+1. Use Git to clone this repo.
+1. To build the project: `./mvnw clean install`.
+1. To serve it: `./mvnw spring-boot:run`.
+1. To test: `http://localhost:8080`.
+
+
+
 ## Project description
 
 The project is built with [Spring Boot](http://spring.io/projects/spring-boot) 
