@@ -10,6 +10,7 @@ This exercise is a RESTful API to work as a basic message store.
 1. To build the project: `./mvnw clean install`.
 1. To serve it: `./mvnw spring-boot:run`.
 1. To test: `http://localhost:8080`.
+1. To shutdown: send `POST` to `http://localhost:8080/actuator/shutdown`
 
 
 
@@ -29,8 +30,15 @@ enabled by placing the **data.sql** file in the `src/main/resources` folder.
 
 
 
+## Endpoints
+
+1. `POST:  /actuator/shutdown` - Shuts down the server.
+
+
+
 ## References
 
 [Spring Initializr](https://start.spring.io/)  
 [Building REST Services with Spring](https://spring.io/guides/tutorials/rest/)  
+[Shutdown a Spring Boot Application](https://www.baeldung.com/spring-boot-shutdown)  
 
